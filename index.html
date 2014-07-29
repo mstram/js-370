@@ -1,0 +1,89 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+	<style type="text/css">
+	 .txtW   { color: white; font-size:12px; text-decoration: none; }
+	 .txtRed { color: red; font-weight:bold /* font-size: 12px; */ }
+
+   .txtG { color:#00bb00; font-weight:bold /* font-size: 12px; */  }
+
+   .txtOr { color:#55bb00; font-weight:bold /* font-size: 12px; */  }
+
+   .txtHid {visibility:hidden}
+   .txtVis {visibility:visible}
+
+    body {
+           /* background-color: #194850; */
+           /* background-color: #194850; */
+           }
+	</style>
+
+ <script src="js/lib/classjs.js"></script>
+ <script src="js/lib/jquery-1.11.0.min.js"></script>
+
+<!-- <script src="herc1.js"></script> -->
+
+
+ <script src="js/utils.js"></script>
+ <script src="js/Texec.js"></script>
+ <script src="js/ref.js"></script>
+ <script src="js/psw.js"></script>
+ <script src="js/Dasd350.js"></script>
+ <script src="js/channel.js"></script>
+ <script src="js/device.js"></script>
+ <script src="js/cpu.js"></script>
+ <script src="js/machine.js"></script>
+ <script src="js/m390.js"></script>
+
+ <script src="js/main.js"></script>
+
+</head>
+
+<!-- <span> PC:</span> <span id="pc">0000</span> <span> Cont:</span>  -->
+
+<body>
+ <h2>Herc ver 1.01 (separate files)</h2>
+ <span id="runstate" class="red txtRed">Stopped</span><span>          St2: </span>
+ <span id="state2">XXX</span>
+
+ <p>
+<!-- memdump:<span id="memdump"></span> -->
+ </p><p>
+ <span>mem:</span><span id="memaddr">0000</span><span> </span><span id="memdump2">0 : 8 : 0 : 0 : 0 : 0 : 2 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 7 : 0 : </span>
+ <table>
+ <tbody><tr>
+  <td>PC:</td><td id="pswIA">0000</td><td></td><td></td><td></td><td></td><td>Cont:</td><td id="pcCont">xxxx</td><td></td><td></td><td></td><td id="timer1">ttttt</td>
+  </tr>
+</tbody></table>
+
+<!--  <span id="timer1">timer1</span> -->
+ </p><p>
+
+</p><div id="disMnem" class="txtOr"></div>
+
+<pre><span id="disLine">disR1</span>
+</pre>
+
+<p>
+<span id="disR1">disR1</span>
+<span id="disDX">disDX</span>
+<span id="disRXpL">(</span>
+<span id="disRXx2">x</span>
+<span id="disRXcm">,</span>
+<span id="disRXb2">9</span>
+<span id="disRXpR">)</span>
+
+</p><p>
+<span id="vtest" class="txtVis">vtest</span>
+</p><p></p>
+<p></p><p></p>
+
+  <button id="pauseBut">Start</button>
+  <button id="stepBut">Step</button>
+  <button id="butest1">Test1</button>
+  <button id="restart">Restart</button>
+  <p>
+<a href="" id="link1">link1</a></p><p>
+
+
+</p></body></html>
